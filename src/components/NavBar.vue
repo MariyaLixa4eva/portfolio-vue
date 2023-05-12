@@ -80,7 +80,7 @@
   }
   .locale {
     position: absolute;
-    right: 75px;
+    right: 65px;
     top: 5px;
     z-index: 2;
   }

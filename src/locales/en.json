@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "Portfolio by Likhacheva Mariya"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "project": "My project",
+    "contact": "Contact me"
+  },
+  "home": {
+    "hello": "Hello!",
+    "welcome": "I'm Masha, and I'm a web-developer",
+    "button": "Previous projects"
+  },
+  "about": {
+    "title": "About me",
+    "text-one": "Currently, the Internet is the most demanded way of promoting and advertising a company. The company's website is a presentation of its presence on the web for customers, a business card that cannot be lost.",
+    "text-two": "I create sites of small volume, consisting of one or more pages, or site-catalogue with information about the products of the company, with adaptation for mobile devices, place on the Internet and set up a search for Yandex and Google. Always in touch, result-oriented, working through all the details.",
+    "text-three": "I have programming skills such as HTML/CSS, Bootstrap, GSAP, Figma, JavaScript, React, Redux, GitHub and I'm currently finishing learning Node.JS and have some experience in a digital studio where I have mastered Vue.js, Vuex, Nuxt, Quasar, Vuetify."   
+  },
+  "project": {
+    "title": "My projects",
+    "btn": "view project"
+  },
+  "contact": {
+    "title": "Contact me",
+    "phone": "You can call me at",
+    "messenger": "Check out my githab profile or contact me via messenger:"
+  }
+}

@@ -21,7 +21,11 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('../views/ContactView.vue')
-  }
+  },
+  {
+    path: '/:catchAll(.*)*',
+    component: () => import('../views/ErrorNotFound.vue'),
+  },
 ]
 
 const router = createRouter({

@@ -11,21 +11,25 @@
   "home": {
     "hello": "Hello!",
     "welcome": "I'm Masha, and I'm a web-developer",
-    "button": "Previous projects"
+    "button": "View projects"
   },
   "about": {
     "title": "About me",
     "text-one": "Currently, the Internet is the most demanded way of promoting and advertising a company. The company's website is a presentation of its presence on the web for customers, a business card that cannot be lost.",
-    "text-two": "I create sites of small volume, consisting of one or more pages, or site-catalogue with information about the products of the company, with adaptation for mobile devices, place on the Internet and set up a search for Yandex and Google. Always in touch, result-oriented, working through all the details.",
+    "text-two": "I create small-scale websites consisting of one or multiple pages, as well as catalog websites with information about company products. I ensure that these websites are mobile-friendly, and I also optimize them for search engines like Yandex and Google. I am always available and focused on delivering results. I pay attention to every detail in my work.",
     "text-three": "I have programming skills such as HTML/CSS, Bootstrap, GSAP, Figma, JavaScript, React, Redux, GitHub and I'm currently finishing learning Node.JS and have some experience in a digital studio where I have mastered Vue.js, Vuex, Nuxt, Quasar, Vuetify."   
   },
   "project": {
     "title": "My projects",
-    "btn": "view project"
+    "btn": "View project"
   },
   "contact": {
     "title": "Contact me",
     "phone": "You can call me at",
-    "messenger": "Check out my githab profile or contact me via messenger:"
+    "messenger": "Check out my GitHub profile or contact me via messenger:"
+  },
+  "error": {
+    "text": "Oops... Nothing here...",
+    "btn": "Back to Home"
   }
 }

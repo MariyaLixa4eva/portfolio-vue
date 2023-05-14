@@ -14,9 +14,6 @@
 </div>
 </template>
 
-
-
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');

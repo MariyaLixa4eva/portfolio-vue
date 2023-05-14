@@ -2,16 +2,23 @@
     <div class="error">
         <div class="container">
             <div class="error-text">
-                <!-- <h2>{{ $t("error.title") }}</h2> -->
                 <h2>404</h2>
             </div>
             <div class="error-info">
                 <h3>{{ $t("error.text") }}</h3>
-                <button><router-link to="/">{{ $t("error.btn") }}</router-link></button>
+                <AppButton><router-link to="/">{{ $t("error.btn") }}</router-link></AppButton>
             </div>
         </div>
     </div>
 </template>
+<script>
+import AppButton from '../components/AppButton.vue';
+export default {
+    components: {
+        AppButton
+    }
+}
+</script>
 <style scoped>
 .error {
     width: 100%;
@@ -66,16 +73,6 @@ h2::before  {
 h3 {
     font-size: 2rem;
     color: white;
-}
-button {
-    background-color: var(--bg);
-    padding: 10px 30px;
-    margin: 13px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 5px var(--color), 0 0 20px var(--color);
-    text-transform: uppercase;
 }
 @media all and (max-width: 600px) {
     h2  {

@@ -9,12 +9,16 @@
             >
         </div>
         <div class="container-btn">
-            <button><a :href='card.site' target="_blank">{{ $t("project.btn") }}</a></button>
+            <AppButton><a :href='card.site' target="_blank">{{ $t("project.btn") }}</a></AppButton>
         </div>
     </div>
 </template>
 <script>
+import AppButton from './AppButton.vue';
 export default {
+    components: {
+        AppButton
+    },
     data() {
         return {
             cards: [
@@ -56,15 +60,5 @@ export default {
 .container-btn {
     display: flex;
     justify-content: center;
-}
-.container-btn button {
-    background-color: var(--bg);
-    padding: 10px 30px;
-    margin: 13px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 5px var(--color), 0 0 20px var(--color);
-    text-transform: uppercase;
 }
 </style>
